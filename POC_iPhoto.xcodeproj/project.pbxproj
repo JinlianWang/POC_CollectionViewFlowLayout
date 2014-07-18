@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D01013E19797C6A00AF139A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D01013D19797C6A00AF139A /* main.m */; };
+		1D01014119797C6A00AF139A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D01014019797C6A00AF139A /* AppDelegate.m */; };
+		1D01014719797C6A00AF139A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D01014519797C6A00AF139A /* Main.storyboard */; };
+		1D01014919797C6A00AF139A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D01014819797C6A00AF139A /* Images.xcassets */; };
+		1D01015519797C6A00AF139A /* POC_iPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D01015419797C6A00AF139A /* POC_iPhotoTests.m */; };
+		1D01016819797D1800AF139A /* TransactionsDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D01016719797D1800AF139A /* TransactionsDataService.m */; };
+		1D01016B19797E8E00AF139A /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D01016A19797E8E00AF139A /* Transaction.m */; };
+		1D0101711979809C00AF139A /* NSDictionary + JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101701979809C00AF139A /* NSDictionary + JSON.m */; };
+		1D0101731979A0DC00AF139A /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101721979A0DC00AF139A /* transactions.json */; };
+		1D0101821979AC9E00AF139A /* TransactionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101801979AC9E00AF139A /* TransactionCollectionViewCell.m */; };
+		1D0101831979AC9E00AF139A /* TransactionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101811979AC9E00AF139A /* TransactionCollectionViewCell.xib */; };
+		1D0101861979B30500AF139A /* SectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101851979B30500AF139A /* SectionInfo.m */; };
+		1D01018A1979BB0D00AF139A /* TransactionCollectionViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101881979BB0D00AF139A /* TransactionCollectionViewSectionHeader.m */; };
+		1D01018B1979BB0D00AF139A /* TransactionCollectionViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101891979BB0D00AF139A /* TransactionCollectionViewSectionHeader.xib */; };
+		1D0101AC1979C20900AF139A /* 711.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D01018D1979C20900AF139A /* 711.jpg */; };
+		1D0101AD1979C20900AF139A /* amazon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D01018E1979C20900AF139A /* amazon.jpg */; };
+		1D0101AE1979C20900AF139A /* bestbuy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D01018F1979C20900AF139A /* bestbuy.jpg */; };
+		1D0101AF1979C20900AF139A /* boa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101901979C20900AF139A /* boa.jpg */; };
+		1D0101B01979C20900AF139A /* capone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101911979C20900AF139A /* capone.jpg */; };
+		1D0101B11979C20900AF139A /* chipotle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101921979C20900AF139A /* chipotle.jpg */; };
+		1D0101B21979C20900AF139A /* comcast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101931979C20900AF139A /* comcast.jpg */; };
+		1D0101B31979C20900AF139A /* cpk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101941979C20900AF139A /* cpk.jpg */; };
+		1D0101B41979C20900AF139A /* delta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101951979C20900AF139A /* delta.jpg */; };
+		1D0101B51979C20900AF139A /* dom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101961979C20900AF139A /* dom.jpg */; };
+		1D0101B61979C20900AF139A /* fiveguys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101971979C20900AF139A /* fiveguys.jpg */; };
+		1D0101B71979C20900AF139A /* hilton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101981979C20900AF139A /* hilton.jpg */; };
+		1D0101B81979C20900AF139A /* hm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101991979C20900AF139A /* hm.jpg */; };
+		1D0101B91979C20900AF139A /* ikea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D01019A1979C20900AF139A /* ikea.jpg */; };
+		1D0101BA1979C20900AF139A /* kingsdom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D01019B1979C20900AF139A /* kingsdom.jpg */; };
+		1D0101BB1979C20900AF139A /* kroger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D01019C1979C20900AF139A /* kroger.jpg */; };
+		1D0101BC1979C20900AF139A /* macys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D01019D1979C20900AF139A /* macys.jpg */; };
+		1D0101BD1979C20900AF139A /* mcdonalds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D01019E1979C20900AF139A /* mcdonalds.jpg */; };
+		1D0101BE1979C20900AF139A /* nordstrom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D01019F1979C20900AF139A /* nordstrom.jpg */; };
+		1D0101BF1979C20900AF139A /* p2p.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A01979C20900AF139A /* p2p.jpg */; };
+		1D0101C01979C20900AF139A /* p2p2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A11979C20900AF139A /* p2p2.jpg */; };
+		1D0101C11979C20900AF139A /* paypal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A21979C20900AF139A /* paypal.jpg */; };
+		1D0101C21979C20900AF139A /* quiznos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A31979C20900AF139A /* quiznos.jpg */; };
+		1D0101C31979C20900AF139A /* smoothie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A41979C20900AF139A /* smoothie.jpg */; };
+		1D0101C41979C20900AF139A /* starbucks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A51979C20900AF139A /* starbucks.jpg */; };
+		1D0101C51979C20900AF139A /* subway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A61979C20900AF139A /* subway.jpg */; };
+		1D0101C61979C20900AF139A /* target.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A71979C20900AF139A /* target.jpg */; };
+		1D0101C71979C20900AF139A /* uber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A81979C20900AF139A /* uber.jpg */; };
+		1D0101C81979C20900AF139A /* verizon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101A91979C20900AF139A /* verizon.jpg */; };
+		1D0101C91979C20900AF139A /* vhda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101AA1979C20900AF139A /* vhda.jpg */; };
+		1D0101CA1979C20900AF139A /* wawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101AB1979C20900AF139A /* wawa.jpg */; };
+		1D0101D41979E33D00AF139A /* TransactionsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101CE1979E33D00AF139A /* TransactionsCollectionViewController.m */; };
+		1D0101D51979E33D00AF139A /* TransactionsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101CF1979E33D00AF139A /* TransactionsCollectionViewController.xib */; };
+		1D0101D61979E33D00AF139A /* TransactionsCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101D11979E33D00AF139A /* TransactionsCollectionViewDataSource.m */; };
+		1D0101D71979E33D00AF139A /* TransactionsCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101D31979E33D00AF139A /* TransactionsCollectionViewLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D01014F19797C6A00AF139A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D01013019797C6A00AF139A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D01013719797C6A00AF139A;
+			remoteInfo = POC_iPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D01013819797C6A00AF139A /* POC_iPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POC_iPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D01013C19797C6A00AF139A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D01013D19797C6A00AF139A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D01013F19797C6A00AF139A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D01014019797C6A00AF139A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D01014619797C6A00AF139A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D01014819797C6A00AF139A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D01014E19797C6A00AF139A /* POC_iPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POC_iPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D01015319797C6A00AF139A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D01015419797C6A00AF139A /* POC_iPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POC_iPhotoTests.m; sourceTree = "<group>"; };
+		1D01016619797D1800AF139A /* TransactionsDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsDataService.h; sourceTree = "<group>"; };
+		1D01016719797D1800AF139A /* TransactionsDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsDataService.m; sourceTree = "<group>"; };
+		1D01016919797E8E00AF139A /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		1D01016A19797E8E00AF139A /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		1D01016F1979809C00AF139A /* NSDictionary + JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary + JSON.h"; sourceTree = "<group>"; };
+		1D0101701979809C00AF139A /* NSDictionary + JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary + JSON.m"; sourceTree = "<group>"; };
+		1D0101721979A0DC00AF139A /* transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
+		1D01017F1979AC9E00AF139A /* TransactionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionCollectionViewCell.h; sourceTree = "<group>"; };
+		1D0101801979AC9E00AF139A /* TransactionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionCollectionViewCell.m; sourceTree = "<group>"; };
+		1D0101811979AC9E00AF139A /* TransactionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D0101841979B30500AF139A /* SectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionInfo.h; sourceTree = "<group>"; };
+		1D0101851979B30500AF139A /* SectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionInfo.m; sourceTree = "<group>"; };
+		1D0101871979BB0D00AF139A /* TransactionCollectionViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionCollectionViewSectionHeader.h; sourceTree = "<group>"; };
+		1D0101881979BB0D00AF139A /* TransactionCollectionViewSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionCollectionViewSectionHeader.m; sourceTree = "<group>"; };
+		1D0101891979BB0D00AF139A /* TransactionCollectionViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionCollectionViewSectionHeader.xib; sourceTree = "<group>"; };
+		1D01018D1979C20900AF139A /* 711.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 711.jpg; sourceTree = "<group>"; };
+		1D01018E1979C20900AF139A /* amazon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amazon.jpg; sourceTree = "<group>"; };
+		1D01018F1979C20900AF139A /* bestbuy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bestbuy.jpg; sourceTree = "<group>"; };
+		1D0101901979C20900AF139A /* boa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boa.jpg; sourceTree = "<group>"; };
+		1D0101911979C20900AF139A /* capone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = capone.jpg; sourceTree = "<group>"; };
+		1D0101921979C20900AF139A /* chipotle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chipotle.jpg; sourceTree = "<group>"; };
+		1D0101931979C20900AF139A /* comcast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comcast.jpg; sourceTree = "<group>"; };
+		1D0101941979C20900AF139A /* cpk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cpk.jpg; sourceTree = "<group>"; };
+		1D0101951979C20900AF139A /* delta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = delta.jpg; sourceTree = "<group>"; };
+		1D0101961979C20900AF139A /* dom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dom.jpg; sourceTree = "<group>"; };
+		1D0101971979C20900AF139A /* fiveguys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fiveguys.jpg; sourceTree = "<group>"; };
+		1D0101981979C20900AF139A /* hilton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hilton.jpg; sourceTree = "<group>"; };
+		1D0101991979C20900AF139A /* hm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hm.jpg; sourceTree = "<group>"; };
+		1D01019A1979C20900AF139A /* ikea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ikea.jpg; sourceTree = "<group>"; };
+		1D01019B1979C20900AF139A /* kingsdom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kingsdom.jpg; sourceTree = "<group>"; };
+		1D01019C1979C20900AF139A /* kroger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kroger.jpg; sourceTree = "<group>"; };
+		1D01019D1979C20900AF139A /* macys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macys.jpg; sourceTree = "<group>"; };
+		1D01019E1979C20900AF139A /* mcdonalds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcdonalds.jpg; sourceTree = "<group>"; };
+		1D01019F1979C20900AF139A /* nordstrom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nordstrom.jpg; sourceTree = "<group>"; };
+		1D0101A01979C20900AF139A /* p2p.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2p.jpg; sourceTree = "<group>"; };
+		1D0101A11979C20900AF139A /* p2p2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2p2.jpg; sourceTree = "<group>"; };
+		1D0101A21979C20900AF139A /* paypal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paypal.jpg; sourceTree = "<group>"; };
+		1D0101A31979C20900AF139A /* quiznos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quiznos.jpg; sourceTree = "<group>"; };
+		1D0101A41979C20900AF139A /* smoothie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smoothie.jpg; sourceTree = "<group>"; };
+		1D0101A51979C20900AF139A /* starbucks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks.jpg; sourceTree = "<group>"; };
+		1D0101A61979C20900AF139A /* subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = subway.jpg; sourceTree = "<group>"; };
+		1D0101A71979C20900AF139A /* target.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = target.jpg; sourceTree = "<group>"; };
+		1D0101A81979C20900AF139A /* uber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uber.jpg; sourceTree = "<group>"; };
+		1D0101A91979C20900AF139A /* verizon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = verizon.jpg; sourceTree = "<group>"; };
+		1D0101AA1979C20900AF139A /* vhda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vhda.jpg; sourceTree = "<group>"; };
+		1D0101AB1979C20900AF139A /* wawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wawa.jpg; sourceTree = "<group>"; };
+		1D0101CD1979E33D00AF139A /* TransactionsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsCollectionViewController.h; sourceTree = "<group>"; };
+		1D0101CE1979E33D00AF139A /* TransactionsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsCollectionViewController.m; sourceTree = "<group>"; };
+		1D0101CF1979E33D00AF139A /* TransactionsCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionsCollectionViewController.xib; sourceTree = "<group>"; };
+		1D0101D01979E33D00AF139A /* TransactionsCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsCollectionViewDataSource.h; sourceTree = "<group>"; };
+		1D0101D11979E33D00AF139A /* TransactionsCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsCollectionViewDataSource.m; sourceTree = "<group>"; };
+		1D0101D21979E33D00AF139A /* TransactionsCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsCollectionViewLayout.h; sourceTree = "<group>"; };
+		1D0101D31979E33D00AF139A /* TransactionsCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsCollectionViewLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D01013519797C6A00AF139A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D01014B19797C6A00AF139A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D01012F19797C6A00AF139A = {
+			isa = PBXGroup;
+			children = (
+				1D01013A19797C6A00AF139A /* POC_iPhoto */,
+				1D01015119797C6A00AF139A /* POC_iPhotoTests */,
+				1D01013919797C6A00AF139A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D01013919797C6A00AF139A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D01013819797C6A00AF139A /* POC_iPhoto.app */,
+				1D01014E19797C6A00AF139A /* POC_iPhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D01013A19797C6A00AF139A /* POC_iPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				1D01016119797CFC00AF139A /* Categories */,
+				1D01016219797CFC00AF139A /* Controllers */,
+				1D01016319797CFC00AF139A /* Models */,
+				1D01016519797CFC00AF139A /* Views */,
+				1D01013F19797C6A00AF139A /* AppDelegate.h */,
+				1D01014019797C6A00AF139A /* AppDelegate.m */,
+				1D01014519797C6A00AF139A /* Main.storyboard */,
+				1D01014819797C6A00AF139A /* Images.xcassets */,
+				1D01013B19797C6A00AF139A /* Supporting Files */,
+			);
+			path = POC_iPhoto;
+			sourceTree = "<group>";
+		};
+		1D01013B19797C6A00AF139A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D01018C1979C1ED00AF139A /* logos */,
+				1D0101721979A0DC00AF139A /* transactions.json */,
+				1D01013C19797C6A00AF139A /* Info.plist */,
+				1D01013D19797C6A00AF139A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D01015119797C6A00AF139A /* POC_iPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D01015419797C6A00AF139A /* POC_iPhotoTests.m */,
+				1D01015219797C6A00AF139A /* Supporting Files */,
+			);
+			path = POC_iPhotoTests;
+			sourceTree = "<group>";
+		};
+		1D01015219797C6A00AF139A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D01015319797C6A00AF139A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D01016119797CFC00AF139A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1D01016F1979809C00AF139A /* NSDictionary + JSON.h */,
+				1D0101701979809C00AF139A /* NSDictionary + JSON.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1D01016219797CFC00AF139A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D0101CD1979E33D00AF139A /* TransactionsCollectionViewController.h */,
+				1D0101CE1979E33D00AF139A /* TransactionsCollectionViewController.m */,
+				1D0101CF1979E33D00AF139A /* TransactionsCollectionViewController.xib */,
+				1D0101D01979E33D00AF139A /* TransactionsCollectionViewDataSource.h */,
+				1D0101D11979E33D00AF139A /* TransactionsCollectionViewDataSource.m */,
+				1D0101D21979E33D00AF139A /* TransactionsCollectionViewLayout.h */,
+				1D0101D31979E33D00AF139A /* TransactionsCollectionViewLayout.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1D01016319797CFC00AF139A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D01016919797E8E00AF139A /* Transaction.h */,
+				1D01016A19797E8E00AF139A /* Transaction.m */,
+				1D01016619797D1800AF139A /* TransactionsDataService.h */,
+				1D01016719797D1800AF139A /* TransactionsDataService.m */,
+				1D0101841979B30500AF139A /* SectionInfo.h */,
+				1D0101851979B30500AF139A /* SectionInfo.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D01016519797CFC00AF139A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D01017F1979AC9E00AF139A /* TransactionCollectionViewCell.h */,
+				1D0101801979AC9E00AF139A /* TransactionCollectionViewCell.m */,
+				1D0101811979AC9E00AF139A /* TransactionCollectionViewCell.xib */,
+				1D0101871979BB0D00AF139A /* TransactionCollectionViewSectionHeader.h */,
+				1D0101881979BB0D00AF139A /* TransactionCollectionViewSectionHeader.m */,
+				1D0101891979BB0D00AF139A /* TransactionCollectionViewSectionHeader.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D01018C1979C1ED00AF139A /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				1D01018D1979C20900AF139A /* 711.jpg */,
+				1D01018E1979C20900AF139A /* amazon.jpg */,
+				1D01018F1979C20900AF139A /* bestbuy.jpg */,
+				1D0101901979C20900AF139A /* boa.jpg */,
+				1D0101911979C20900AF139A /* capone.jpg */,
+				1D0101921979C20900AF139A /* chipotle.jpg */,
+				1D0101931979C20900AF139A /* comcast.jpg */,
+				1D0101941979C20900AF139A /* cpk.jpg */,
+				1D0101951979C20900AF139A /* delta.jpg */,
+				1D0101961979C20900AF139A /* dom.jpg */,
+				1D0101971979C20900AF139A /* fiveguys.jpg */,
+				1D0101981979C20900AF139A /* hilton.jpg */,
+				1D0101991979C20900AF139A /* hm.jpg */,
+				1D01019A1979C20900AF139A /* ikea.jpg */,
+				1D01019B1979C20900AF139A /* kingsdom.jpg */,
+				1D01019C1979C20900AF139A /* kroger.jpg */,
+				1D01019D1979C20900AF139A /* macys.jpg */,
+				1D01019E1979C20900AF139A /* mcdonalds.jpg */,
+				1D01019F1979C20900AF139A /* nordstrom.jpg */,
+				1D0101A01979C20900AF139A /* p2p.jpg */,
+				1D0101A11979C20900AF139A /* p2p2.jpg */,
+				1D0101A21979C20900AF139A /* paypal.jpg */,
+				1D0101A31979C20900AF139A /* quiznos.jpg */,
+				1D0101A41979C20900AF139A /* smoothie.jpg */,
+				1D0101A51979C20900AF139A /* starbucks.jpg */,
+				1D0101A61979C20900AF139A /* subway.jpg */,
+				1D0101A71979C20900AF139A /* target.jpg */,
+				1D0101A81979C20900AF139A /* uber.jpg */,
+				1D0101A91979C20900AF139A /* verizon.jpg */,
+				1D0101AA1979C20900AF139A /* vhda.jpg */,
+				1D0101AB1979C20900AF139A /* wawa.jpg */,
+			);
+			path = logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D01013719797C6A00AF139A /* POC_iPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D01015819797C6A00AF139A /* Build configuration list for PBXNativeTarget "POC_iPhoto" */;
+			buildPhases = (
+				1D01013419797C6A00AF139A /* Sources */,
+				1D01013519797C6A00AF139A /* Frameworks */,
+				1D01013619797C6A00AF139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POC_iPhoto;
+			productName = POC_iPhoto;
+			productReference = 1D01013819797C6A00AF139A /* POC_iPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D01014D19797C6A00AF139A /* POC_iPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D01015B19797C6A00AF139A /* Build configuration list for PBXNativeTarget "POC_iPhotoTests" */;
+			buildPhases = (
+				1D01014A19797C6A00AF139A /* Sources */,
+				1D01014B19797C6A00AF139A /* Frameworks */,
+				1D01014C19797C6A00AF139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D01015019797C6A00AF139A /* PBXTargetDependency */,
+			);
+			name = POC_iPhotoTests;
+			productName = POC_iPhotoTests;
+			productReference = 1D01014E19797C6A00AF139A /* POC_iPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D01013019797C6A00AF139A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = SunnyOrg;
+				TargetAttributes = {
+					1D01013719797C6A00AF139A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1D01014D19797C6A00AF139A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1D01013719797C6A00AF139A;
+					};
+				};
+			};
+			buildConfigurationList = 1D01013319797C6A00AF139A /* Build configuration list for PBXProject "POC_iPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D01012F19797C6A00AF139A;
+			productRefGroup = 1D01013919797C6A00AF139A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D01013719797C6A00AF139A /* POC_iPhoto */,
+				1D01014D19797C6A00AF139A /* POC_iPhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D01013619797C6A00AF139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0101C81979C20900AF139A /* verizon.jpg in Resources */,
+				1D0101C21979C20900AF139A /* quiznos.jpg in Resources */,
+				1D0101BF1979C20900AF139A /* p2p.jpg in Resources */,
+				1D0101B01979C20900AF139A /* capone.jpg in Resources */,
+				1D0101D51979E33D00AF139A /* TransactionsCollectionViewController.xib in Resources */,
+				1D0101BD1979C20900AF139A /* mcdonalds.jpg in Resources */,
+				1D0101B91979C20900AF139A /* ikea.jpg in Resources */,
+				1D0101B21979C20900AF139A /* comcast.jpg in Resources */,
+				1D0101B31979C20900AF139A /* cpk.jpg in Resources */,
+				1D0101C41979C20900AF139A /* starbucks.jpg in Resources */,
+				1D0101AF1979C20900AF139A /* boa.jpg in Resources */,
+				1D0101BB1979C20900AF139A /* kroger.jpg in Resources */,
+				1D0101AE1979C20900AF139A /* bestbuy.jpg in Resources */,
+				1D0101B81979C20900AF139A /* hm.jpg in Resources */,
+				1D0101B11979C20900AF139A /* chipotle.jpg in Resources */,
+				1D0101B51979C20900AF139A /* dom.jpg in Resources */,
+				1D0101731979A0DC00AF139A /* transactions.json in Resources */,
+				1D0101BA1979C20900AF139A /* kingsdom.jpg in Resources */,
+				1D0101C61979C20900AF139A /* target.jpg in Resources */,
+				1D01014719797C6A00AF139A /* Main.storyboard in Resources */,
+				1D0101831979AC9E00AF139A /* TransactionCollectionViewCell.xib in Resources */,
+				1D01014919797C6A00AF139A /* Images.xcassets in Resources */,
+				1D01018B1979BB0D00AF139A /* TransactionCollectionViewSectionHeader.xib in Resources */,
+				1D0101C91979C20900AF139A /* vhda.jpg in Resources */,
+				1D0101C51979C20900AF139A /* subway.jpg in Resources */,
+				1D0101BC1979C20900AF139A /* macys.jpg in Resources */,
+				1D0101B61979C20900AF139A /* fiveguys.jpg in Resources */,
+				1D0101C11979C20900AF139A /* paypal.jpg in Resources */,
+				1D0101C71979C20900AF139A /* uber.jpg in Resources */,
+				1D0101AC1979C20900AF139A /* 711.jpg in Resources */,
+				1D0101CA1979C20900AF139A /* wawa.jpg in Resources */,
+				1D0101C01979C20900AF139A /* p2p2.jpg in Resources */,
+				1D0101C31979C20900AF139A /* smoothie.jpg in Resources */,
+				1D0101B71979C20900AF139A /* hilton.jpg in Resources */,
+				1D0101BE1979C20900AF139A /* nordstrom.jpg in Resources */,
+				1D0101B41979C20900AF139A /* delta.jpg in Resources */,
+				1D0101AD1979C20900AF139A /* amazon.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D01014C19797C6A00AF139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D01013419797C6A00AF139A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D01016B19797E8E00AF139A /* Transaction.m in Sources */,
+				1D0101D41979E33D00AF139A /* TransactionsCollectionViewController.m in Sources */,
+				1D0101D61979E33D00AF139A /* TransactionsCollectionViewDataSource.m in Sources */,
+				1D01016819797D1800AF139A /* TransactionsDataService.m in Sources */,
+				1D0101D71979E33D00AF139A /* TransactionsCollectionViewLayout.m in Sources */,
+				1D01018A1979BB0D00AF139A /* TransactionCollectionViewSectionHeader.m in Sources */,
+				1D0101821979AC9E00AF139A /* TransactionCollectionViewCell.m in Sources */,
+				1D0101711979809C00AF139A /* NSDictionary + JSON.m in Sources */,
+				1D01014119797C6A00AF139A /* AppDelegate.m in Sources */,
+				1D0101861979B30500AF139A /* SectionInfo.m in Sources */,
+				1D01013E19797C6A00AF139A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D01014A19797C6A00AF139A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D01015519797C6A00AF139A /* POC_iPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D01015019797C6A00AF139A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D01013719797C6A00AF139A /* POC_iPhoto */;
+			targetProxy = 1D01014F19797C6A00AF139A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D01014519797C6A00AF139A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D01014619797C6A00AF139A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D01015619797C6A00AF139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1D01015719797C6A00AF139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D01015919797C6A00AF139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = POC_iPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D01015A19797C6A00AF139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = POC_iPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D01015C19797C6A00AF139A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/POC_iPhoto.app/POC_iPhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = POC_iPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1D01015D19797C6A00AF139A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/POC_iPhoto.app/POC_iPhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = POC_iPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D01013319797C6A00AF139A /* Build configuration list for PBXProject "POC_iPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D01015619797C6A00AF139A /* Debug */,
+				1D01015719797C6A00AF139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D01015819797C6A00AF139A /* Build configuration list for PBXNativeTarget "POC_iPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D01015919797C6A00AF139A /* Debug */,
+				1D01015A19797C6A00AF139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D01015B19797C6A00AF139A /* Build configuration list for PBXNativeTarget "POC_iPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D01015C19797C6A00AF139A /* Debug */,
+				1D01015D19797C6A00AF139A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D01013019797C6A00AF139A /* Project object */;
+}

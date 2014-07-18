@@ -1,2 +1,1 @@
-POC_CollectionViewFlowLayout
-============================
+This is a prototype to demo how UICollectionView works with a flow layout. Compared to a non-flow (custom) layout, the flow layout is much simpler to use: you only needs to set the item size and header/footer size, and the flow layout would do the rest by putting one  cell after another. It also handles the rotation automatically. However, flow layout has its limitation: you can not control the exact spacing between cells (yes, you can define the minimum item spacing, but not the exact spacing). It has other limitation compared to custom layout, such as can only handle grid-like layout, not handling animation between layout well, etc. 
