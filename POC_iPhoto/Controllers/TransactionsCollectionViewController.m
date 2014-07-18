@@ -8,7 +8,6 @@
 
 #import "TransactionsCollectionViewController.h"
 #import "TransactionsCollectionViewDataSource.h"
-#import "TransactionsCollectionViewLayout.h"
 #import "TransactionCollectionViewCell.h"
 #import "TransactionCollectionViewSectionHeader.h"
 

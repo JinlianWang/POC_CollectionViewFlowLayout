@@ -55,7 +55,6 @@
 		1D0101D41979E33D00AF139A /* TransactionsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101CE1979E33D00AF139A /* TransactionsCollectionViewController.m */; };
 		1D0101D51979E33D00AF139A /* TransactionsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0101CF1979E33D00AF139A /* TransactionsCollectionViewController.xib */; };
 		1D0101D61979E33D00AF139A /* TransactionsCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101D11979E33D00AF139A /* TransactionsCollectionViewDataSource.m */; };
-		1D0101D71979E33D00AF139A /* TransactionsCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0101D31979E33D00AF139A /* TransactionsCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,8 +129,6 @@
 		1D0101CF1979E33D00AF139A /* TransactionsCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionsCollectionViewController.xib; sourceTree = "<group>"; };
 		1D0101D01979E33D00AF139A /* TransactionsCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsCollectionViewDataSource.h; sourceTree = "<group>"; };
 		1D0101D11979E33D00AF139A /* TransactionsCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsCollectionViewDataSource.m; sourceTree = "<group>"; };
-		1D0101D21979E33D00AF139A /* TransactionsCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsCollectionViewLayout.h; sourceTree = "<group>"; };
-		1D0101D31979E33D00AF139A /* TransactionsCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,8 +228,6 @@
 				1D0101CF1979E33D00AF139A /* TransactionsCollectionViewController.xib */,
 				1D0101D01979E33D00AF139A /* TransactionsCollectionViewDataSource.h */,
 				1D0101D11979E33D00AF139A /* TransactionsCollectionViewDataSource.m */,
-				1D0101D21979E33D00AF139A /* TransactionsCollectionViewLayout.h */,
-				1D0101D31979E33D00AF139A /* TransactionsCollectionViewLayout.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -439,7 +434,6 @@
 				1D0101D41979E33D00AF139A /* TransactionsCollectionViewController.m in Sources */,
 				1D0101D61979E33D00AF139A /* TransactionsCollectionViewDataSource.m in Sources */,
 				1D01016819797D1800AF139A /* TransactionsDataService.m in Sources */,
-				1D0101D71979E33D00AF139A /* TransactionsCollectionViewLayout.m in Sources */,
 				1D01018A1979BB0D00AF139A /* TransactionCollectionViewSectionHeader.m in Sources */,
 				1D0101821979AC9E00AF139A /* TransactionCollectionViewCell.m in Sources */,
 				1D0101711979809C00AF139A /* NSDictionary + JSON.m in Sources */,
@@ -632,6 +626,7 @@
 				1D01015A19797C6A00AF139A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D01015B19797C6A00AF139A /* Build configuration list for PBXNativeTarget "POC_iPhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +635,7 @@
 				1D01015D19797C6A00AF139A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
